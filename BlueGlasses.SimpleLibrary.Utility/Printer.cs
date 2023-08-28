@@ -6,5 +6,10 @@
         {
             Console.WriteLine(str);
         }
+
+        public static void Print(int i) 
+        {
+            Console.WriteLine(i);
+        }
     }
 }
