@@ -13,5 +13,11 @@
             if (format == null) format = "PRINTER";
             Console.WriteLine($"{format}: {i}");
         }
+
+        public static void Print(double i, string? format = null)
+        {
+            if (format == null) format = "PRINTER";
+            Console.WriteLine($"{format}: {Math.Round(i)}");
+        }
     }
 }
