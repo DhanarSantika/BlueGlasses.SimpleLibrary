@@ -4,12 +4,12 @@
     {
         public static void Print(string str)
         {
-            Console.WriteLine(str);
+            Console.WriteLine($"PRINTER: {str}");
         }
 
         public static void Print(int i) 
         {
-            Console.WriteLine(i);
+            Console.WriteLine($"PRINTER: {i}");
         }
     }
 }

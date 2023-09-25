@@ -4,7 +4,7 @@
       <TargetFramework>net6.0</TargetFramework>
       <ImplicitUsings>enable</ImplicitUsings>
       <Nullable>enable</Nullable>
-	  <VersionPrefix>1.1.1</VersionPrefix>
+	  <VersionPrefix>1.1.2</VersionPrefix>
 	  <Authors>Dhanar Santika</Authors>
 	  <Description>Simple library to push to nuget</Description>
 	  <PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
@@ -16,6 +16,8 @@
 	  <Deterministic>true</Deterministic>
 	  <EmbedUntrackedSources>true</EmbedUntrackedSources>
 	  <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+	  <PackageReleaseNotes>v.1.1.2
+- Update Printer Method</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

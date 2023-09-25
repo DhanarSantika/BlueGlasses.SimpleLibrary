@@ -6,4 +6,4 @@ var b = Calculator.Kali(a, 3);
 var c = Calculator.Kurang(b, 1);
 var d = Calculator.PangkatDua(c);
 
-Printer.Print($"Hasil: {d}");
+Printer.Print(d);
