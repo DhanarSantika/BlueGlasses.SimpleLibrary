@@ -37,3 +37,11 @@ Step Source Link:
   - build project
   - pack project
   - file .nupkg dan .snupkg siap di upload
+
+6. Untuk mengecek apakah package sudah terhubung dengan symbol server, anda dapat menggunakan program Nuget Package Explorer yang dapat diunduh di sini: [Nuget Package Explorer](https://apps.microsoft.com/detail/9WZDNCRDMDM3?hl=en-us&gl=US)
+  - Pilih "Open Package From Online Feed (Ctrl + G)"
+  - Lalu cari nuget package yang ingin dicek
+  - Setelah itu anda bisa cek apakah package sudah terhubung dengan symbol server atau belum
+  ![nuget_package_explorer](img/nuget_package_explorer.png)
+
+7. Setelah semuanya sudah siap, anda dapat melakukan debugging dengan library yang anda install dari nuget package manager
